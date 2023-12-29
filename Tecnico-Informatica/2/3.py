@@ -11,12 +11,10 @@ for maior ou igual a 3"""
 number_choice = int(input("Digite um número de 1 a 10: "))
 guess = int(input("Dê um palpite de 1 a 10: "))
 
+diference = guess - number_choice
 # Evita da diferença ser negativa
-if (guess - number_choice) < 0:
-    diference = ((guess - number_choice) * (-1))
-else:
-    diference = guess - number_choice
-
+if diference < 0:
+    diference = diference * -1
 
 if guess == number_choice:
     print("Parabéns, você acertou o número!")
