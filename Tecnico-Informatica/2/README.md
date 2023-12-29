@@ -1,4 +1,4 @@
-# Controle de fluxo e repetidores
+# Controle de fluxo
 
 1. Faça um programa que receba um número de um usuário e exiba na tela se ele é
 par ou ímpar.
